@@ -1,9 +1,9 @@
 <scheme name="CutiePro" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2023-12-01T00:51:17</property>
+    <property name="created">2023-12-01T01:58:09</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2023.2.5.0.0</property>
-    <property name="modified">2023-12-01T00:51:48</property>
+    <property name="modified">2023-12-01T01:58:25</property>
     <property name="originalScheme">CutiePro</property>
   </metaInfo>
   <colors>
@@ -613,7 +613,7 @@
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="939293" />
-        <option name="ERROR_STRIPE_COLOR" value="b67f86" />
+        <option name="ERROR_STRIPE_COLOR" value="3F3F3F" />
       </value>
     </option>
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
@@ -1032,7 +1032,7 @@
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="939393" />
-        <option name="ERROR_STRIPE_COLOR" value="b67f86" />
+        <option name="ERROR_STRIPE_COLOR" value="3F3F3F" />
       </value>
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
