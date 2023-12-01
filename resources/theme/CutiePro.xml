@@ -1,9 +1,9 @@
 <scheme name="CutiePro" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2023-11-29T20:36:22</property>
+    <property name="created">2023-12-01T00:51:17</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2023.2.5.0.0</property>
-    <property name="modified">2023-11-29T20:36:40</property>
+    <property name="modified">2023-12-01T00:51:48</property>
     <property name="originalScheme">CutiePro</property>
   </metaInfo>
   <colors>
@@ -43,8 +43,10 @@
     <option name="RIGHT_MARGIN_COLOR" value="3e3e3e" />
     <option name="SELECTED_INDENT_GUIDE" value="666666" />
     <option name="SELECTION_BACKGROUND" value="4b4545" />
-    <option name="ScrollBar.Mac.hoverThumbColor" value="ffffff4d" />
-    <option name="ScrollBar.Mac.thumbColor" value="ffffff26" />
+    <option name="ScrollBar.Mac.hoverThumbColor" value="e594a375" />
+    <option name="ScrollBar.Mac.thumbColor" value="e594a340" />
+    <option name="ScrollBar.Transparent.hoverThumbColor" value="e594a375" />
+    <option name="ScrollBar.Transparent.thumbColor" value="e594a340" />
     <option name="VCS_ANNOTATIONS_COLOR_1" value="e82552" />
     <option name="VCS_ANNOTATIONS_COLOR_2" value="3d373a" />
     <option name="VCS_ANNOTATIONS_COLOR_3" value="c01faf" />
