@@ -3,11 +3,10 @@
   "author": "jezzy",
   "dark": true,
   "editorScheme": "/CutiePro.xml",
-
   "colors": {
     "backgroundColor": "#21201F",
     "foregroundColor": "#dddddd",
-    "textColor": "#bb9393",
+    "textColor": "#daadad",
     "selectionBackgroundColor": "#323232",
     "selectionForegroundColor": "#D7D7D7",
     "buttonColor": "#1C1C1C",
@@ -64,12 +63,17 @@
       "startBackground": "buttonColor",
       "endBackground": "buttonColor",
       "shadowColor": "backgroundColor",
+      "disabledText": "disabledColor",
+      "disabledBorderColor": "disabledColor",
       "arc": "0",
       "default": {
         "foreground": "selectionForegroundColor",
+        "startBorderColor": "accentColor",
+        "endBorderColor": "accentColor",
         "startBackground": "selectionBackgroundColor",
         "endBackground": "selectionBackgroundColor",
-        "shadowColor": "backgroundColor"
+        "shadowColor": "backgroundColor",
+        "focusedBorderColor": "accentColor"
       }
     },
     "CheckBox": {
