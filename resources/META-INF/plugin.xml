@@ -3,38 +3,31 @@
   <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
   <id>CutiePro</id>
   <version>1.0.1</version>
-
   <!-- Public plugin name should be written in Title Case.
        Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
   <name>CutiePro</name>
   <category>Theme</category>
-
   <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
   <vendor email="jezz.jazmin@outlook.com">Jezz Jumble</vendor>
-
   <idea-version since-build="222"/>
-
   <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
        Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
        Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
   <description><![CDATA[
     Dark, pastel, pink, legible, but most of all... cute!<br>
     <br>
-    WIP. If you have any feedback, feel free to visit https://github.com/jezziewezzie/CutiePro<br>
+    WIP. If you have any feedback, feel free to visit <a href="https://github.com/jezziewezzie/CutiePro">https://github.com/jezziewezzie/CutiePro</a><br>
     <br>
-    Temporary icon adapted from https://vectorportal.com/vector/plush-octopus/35221
+    Temporary icon adapted from <a href="https://vectorportal.com/vector/plush-octopus/35221">https://vectorportal.com/vector/plush-octopus/35221</a>
   ]]></description>
-
   <!-- Short summary of new features and bugfixes in the latest plugin version.
        Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
   <change-notes><![CDATA[
-    Initial release of CutiePro!
+    Some housekeeping
   ]]></change-notes>
-
   <!-- Product and plugin compatibility requirements.
        Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
   <depends>com.intellij.modules.platform</depends>
-
   <extensions defaultExtensionNs="com.intellij">
     <themeProvider id="CutiePro" path="/theme/CutiePro.theme.json"/>
   </extensions>
