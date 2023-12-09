@@ -350,14 +350,6 @@
       "acceleratorSelectionForeground": "pink2"
     },
     "ScrollBar": {
-      "background": "charcoal1",
-      "thumb": "black1",
-      "thumbColor": "pink2",
-      "hoverThumbColor": "pink1",
-      "Transparent.thumbColor": "pink2",
-      "Transparent.hoverThumbColor": "pink1",
-      "Mac.Transparent.thumbColor": "pink2",
-      "Mac.Transparent.hoverThumbColor": "pink1"
     },
     "ScrollPane": {
     },
