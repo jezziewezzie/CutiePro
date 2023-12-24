@@ -23,7 +23,7 @@
   <!-- Short summary of new features and bugfixes in the latest plugin version.
        Displayed on the Plugin Page and IDE Plugin Manager. Simple HTML elements can be included between <![CDATA[  ]]> tags. -->
   <change-notes><![CDATA[
-    More visibility improvements
+    More visibility improvements, better scrollbars and plugin window
   ]]></change-notes>
   <!-- Product and plugin compatibility requirements.
        Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
