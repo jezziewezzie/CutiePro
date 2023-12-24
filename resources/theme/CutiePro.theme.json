@@ -12,11 +12,12 @@
     "charcoal1": "#21201F",
     "charcoal2": "#342e2e",
     "charcoal3": "#3a3335",
-    "gray1": "#5e5e5e",
+    "gray1": "#4f4f4f",
     "gray2": "#544141",
+    "gray3": "#868686",
     "pink1": "#e38ea3",
     "pink2": "#dcaeae",
-    "pink3": "#544141",
+    "pink3": "#6b4e4e",
     "red1": "#3e1818",
     "red2": "#FF5E5E",
     "white": "#dddddd"
@@ -284,24 +285,26 @@
       "inactiveForeground": "gray1"
     },
     "Plugins": {
-      "disabledForeground": "gray1",
-      "lightSelectionBackground": "pink3",
-      "tagBackground": "gray2",
-      "eapTagBackground": "gray2",
+      "hoverBackground": "charcoal3",
+      "disabledForeground": "gray3",
+      "lightSelectionBackground": "gray2",
+      "tagBackground": "gray1",
+      "eapTagBackground": "gray1",
+      "tagForeground": "pink2",
       "Tab": {
         "selectedForeground": "pink2",
         "selectedBackground": "charcoal2",
-        "hoverBackground": "charcoal2"
+        "hoverBackground": "charcoal3"
       },
       "Button": {
         "installForeground": "white",
-        "installBackground": "black5",
+        "installBackground": "pink3",
         "installBorderColor": "black5",
-        "installFillForeground": "gray1",
-        "installFillBackground": "black5",
-        "installFocusedBackground": "gray2",
+        "installFillForeground": "white",
+        "installFillBackground": "pink3",
+        "installFocusedBackground": "black5",
         "updateForeground": "white",
-        "updateBackground": "black5",
+        "updateBackground": "pink3",
         "updateBorderColor": "black5"
       },
       "SectionHeader": {
@@ -350,6 +353,18 @@
       "acceleratorSelectionForeground": "pink2"
     },
     "ScrollBar": {
+      "thumbColor": "A6797970",
+      "hoverThumbColor": "E37C8990",
+      "Transparent.thumbColor": "A6797970",
+      "Transparent.trackColor": "21201fff",
+      "Transparent.hoverThumbColor": "E37C8990",
+      "Transparent.hoverTrackColor": "21201fff",
+      "Mac.thumbColor": "A6797970",
+      "Mac.hoverThumbColor": "E37C8990",
+      "Mac.Transparent.thumbColor": "A6797970",
+      "Mac.Transparent.trackColor": "21201fff",
+      "Mac.Transparent.hoverThumbColor": "E37C8990",
+      "Mac.Transparent.hoverTrackColor": "21201fff"
     },
     "ScrollPane": {
     },
