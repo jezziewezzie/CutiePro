@@ -36,7 +36,6 @@ jobs:
       - name: Fetch Sources
         uses: actions/checkout@v4
 
-
       - name: Set execute permissions for Gradlew
         run: chmod +x ./gradlew
 
@@ -191,6 +190,9 @@ jobs:
       # Check out current repository
       - name: Fetch Sources
         uses: actions/checkout@v4
+
+      - name: Set execute permissions for Gradlew
+        run: chmod +x ./gradlew
 
       # Set up Java environment for the next steps
       - name: Setup Java
