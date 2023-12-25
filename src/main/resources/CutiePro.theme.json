@@ -2,7 +2,7 @@
   "name": "CutiePro",
   "author": "jezzy",
   "dark": true,
-  "editorScheme": "/theme/CutiePro.xml",
+  "editorScheme": "/colors/CutiePro.xml",
   "colors": {
     "black1": "#101010",
     "black2": "#111111",
