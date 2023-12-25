@@ -33,7 +33,7 @@ jobs:
     steps:
 
       - name: Set execute permissions for Gradlew
-        run: chmod +x ./gradlew
+        run: chmod +x /gradlew
 
       # Check out current repository
       - name: Fetch Sources
