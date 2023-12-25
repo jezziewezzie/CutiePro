@@ -38,7 +38,7 @@ jobs:
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
         with:
-          gradle-home-cache-cleanup: false
+          gradle-home-cache-cleanup: true
 
       # Set environment variables
       - name: Export Properties
