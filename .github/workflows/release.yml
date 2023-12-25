@@ -16,9 +16,6 @@ jobs:
     #      contents: write
     #      pull-requests: write
     steps:
-      - name: perms
-        run: chmod +x ./gradlew
-
       - name: Debug
         run: echo "The value of BRANCH is ${{ env.BRANCH }}"
 
@@ -28,7 +25,7 @@ jobs:
       #        with:
       #          ref: ${{ github.event.release.tag_name }}
 
-      - name: perms2
+      - name: Set execute permissions for Gradlew
         run: chmod +x ./gradlew
 
       # Set up Java environment for the next steps
