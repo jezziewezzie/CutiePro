@@ -13,12 +13,14 @@ jobs:
     name: Publish Plugin
     runs-on: ubuntu-latest
     permissions: write-all
-#      contents: write
-#      pull-requests: write
+    #      contents: write
+    #      pull-requests: write
     steps:
-
-      - name: Set execute permissions for Gradlew
+      - name: perms
         run: chmod +x ./gradlew
+
+      - name: Debug
+        run: echo "The value of BRANCH is ${{ env.BRANCH }}"
 
       # Check out current repository
       - name: Fetch Sources
@@ -26,7 +28,7 @@ jobs:
       #        with:
       #          ref: ${{ github.event.release.tag_name }}
 
-      - name: Set execute permissions for Gradlew
+      - name: perms2
         run: chmod +x ./gradlew
 
       # Set up Java environment for the next steps
