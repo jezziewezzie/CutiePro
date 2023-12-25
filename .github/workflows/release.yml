@@ -12,10 +12,9 @@ jobs:
   release:
     name: Publish Plugin
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
-      packages: write
+    permissions: write-all
+#      contents: write
+#      pull-requests: write
     steps:
 
       - name: Set execute permissions for Gradlew
