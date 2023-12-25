@@ -32,12 +32,13 @@ jobs:
       pluginVerifierHomeDir: ${{ steps.properties.outputs.pluginVerifierHomeDir }}
     steps:
 
-      - name: Set execute permissions for Gradlew
-        run: chmod +x /gradlew
-
       # Check out current repository
       - name: Fetch Sources
         uses: actions/checkout@v4
+
+
+      - name: Set execute permissions for Gradlew
+        run: chmod +x ./gradlew
 
       # Validate wrapper
       - name: Gradle Wrapper Validation
