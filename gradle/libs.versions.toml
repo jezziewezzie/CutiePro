@@ -1,6 +1,6 @@
 [versions]
 # libraries
-annotations = "24.1.0"
+#annotations = "24.1.0"
 
 # plugins
 kotlin = "1.9.22"
@@ -10,7 +10,7 @@ gradleIntelliJPlugin = "1.16.1"
 #kover = "0.7.5"
 
 [libraries]
-annotations = { group = "org.jetbrains", name = "annotations", version.ref = "annotations" }
+#annotations = { group = "org.jetbrains", name = "annotations", version.ref = "annotations" }
 
 [plugins]
 changelog = { id = "org.jetbrains.changelog", version.ref = "changelog" }
