@@ -8,7 +8,6 @@ on:
     types: [prereleased, released]
 
 jobs:
-
   # Prepare and publish the plugin to JetBrains Marketplace repository
   release:
     name: Publish Plugin
@@ -16,13 +15,17 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      packages: write
     steps:
+
+      - name: Set execute permissions for Gradlew
+        run: chmod +x ./gradlew
 
       # Check out current repository
       - name: Fetch Sources
         uses: actions/checkout@v4
-#        with:
-#          ref: ${{ github.event.release.tag_name }}
+      #        with:
+      #          ref: ${{ github.event.release.tag_name }}
 
       - name: Set execute permissions for Gradlew
         run: chmod +x ./gradlew
@@ -49,7 +52,7 @@ jobs:
           ${{ github.event.release.body }}
           EOM
           )"
-          
+
           echo "changelog<<EOF" >> $GITHUB_OUTPUT
           echo "$CHANGELOG" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
@@ -99,7 +102,7 @@ jobs:
           git checkout -b $BRANCH
           git commit -am "Changelog update - $VERSION"
           git push --set-upstream origin $BRANCH
-          
+
           gh label create "$LABEL" \
             --description "Pull requests with release changelog update" \
             --force \
