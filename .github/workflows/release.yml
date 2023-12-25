@@ -54,6 +54,9 @@ jobs:
           echo "$CHANGELOG" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
 
+      - name: Set execute permissions for Gradlew
+        run: chmod +x ./gradlew
+
       # Update Unreleased section with the current release note
       - name: Patch Changelog
         if: ${{ steps.properties.outputs.changelog != '' }}
