@@ -7,7 +7,7 @@
   <name>CutiePro</name>
   <category>Theme</category>
   <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-  <vendor email="jezz.jazmin@outlook.com">Jezz Jumble</vendor>
+  <vendor email="jezz.jazmin@outlook.com">Jezzy Jumble</vendor>
   <!-- Product and plugin compatibility requirements.
        Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
   <depends>com.intellij.modules.platform</depends>
