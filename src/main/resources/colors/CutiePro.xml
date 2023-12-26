@@ -1,5 +1,4 @@
 <scheme name="CutiePro" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.0"/>
   <metaInfo>
     <property name="created">2023-12-24T05:56:24</property>
     <property name="ide">idea</property>
@@ -7,10 +6,6 @@
     <property name="modified">2023-12-24T05:56:36</property>
     <property name="originalScheme">CutiePro</property>
   </metaInfo>
-  <option name="LINE_SPACING" value="1.2"/>
-  <option name="EDITOR_FONT_SIZE" value="14"/>
-  <option name="EDITOR_FONT_NAME" value="JetBrains Mono"/>
-  <option name="EDITOR_LIGATURES" value="true"/>
   <colors>
     <option name="ADDED_LINES_COLOR" value="91cb70"/>
     <option name="ANNOTATIONS_COLOR" value="c0c0c0"/>
