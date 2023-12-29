@@ -12,9 +12,9 @@
     "charcoal1": "#21201F",
     "charcoal2": "#342e2e",
     "charcoal3": "#3a3335",
-    "gray1": "#4f4f4f",
-    "gray2": "#544141",
-    "gray3": "#868686",
+    "charcoal4": "#574747",
+    "gray1": "#666666",
+    "gray2": "#868686",
     "pink1": "#e38ea3",
     "pink2": "#dcaeae",
     "pink3": "#6b4e4e",
@@ -24,6 +24,7 @@
   },
   "ui": {
     "*": {
+      "arc": 0,
       "foreground": "white",
       "background": "charcoal1",
       "textForeground": "pink2",
@@ -67,9 +68,8 @@
       "startBackground": "charcoal2",
       "endBackground": "charcoal2",
       "shadowColor": "charcoal1",
-      "disabledText": "gray1",
-      "disabledBorderColor": "pink3",
-      "arc": "7",
+      "disabledText": "gray2",
+      "disabledBorderColor": "charcoal4",
       "default": {
         "foreground": "pink2",
         "startBorderColor": "pink1",
@@ -103,7 +103,7 @@
     "ComboBox": {
       "foreground": "white",
       "background": "charcoal1",
-      "disabledForeground": "gray1",
+      "disabledForeground": "white",
       "selectionForeground": "white",
       "selectionBackground": "charcoal2",
       "nonEditableBackground": "charcoal1",
@@ -123,13 +123,13 @@
     "CompletionPopup": {
       "foreground": "white",
       "selectionBackground": "pink3",
-      "selectionInactiveBackground": "gray2"
+      "selectionInactiveBackground": "charcoal4"
     },
     "Component": {
-      "borderColor": "gray2",
+      "borderColor": "charcoal4",
       "infoForeground": "pink2",
       "disabledBorderColor": "gray1",
-      "focusedBorderColor": "gray2"
+      "focusedBorderColor": "charcoal4"
     },
     "Counter": {
       "foreground": "pink2"
@@ -167,9 +167,15 @@
       "underlinedTabBackground": "black1"
     },
     "FileColor": {
+      "Blue": "#436c70",
+      "Gray": "#707070",
+      "Green": "#5e7042",
+      "Orange": "#704a2f",
+      "Rose": "#704a55",
+      "Violet": "#5d4a70",
+      "Yellow": "#705f4f"
     },
-    "FlameGraph": {
-    },
+    "FlameGraph": {},
     "FormattedTextField": {
       "foreground": "white",
       "background": "charcoal1",
@@ -214,7 +220,7 @@
     },
     "MemoryIndicator": {
       "allocatedBackground": "black3",
-      "usedBackground": "gray2"
+      "usedBackground": "charcoal4"
     },
     "Menu": {
       "foreground": "white",
@@ -274,7 +280,7 @@
       "borderColor": "charcoal2",
       "disabledForeground": "gray1",
       "infoForeground": "pink2",
-      "currentOverloadBackground": "gray2",
+      "currentOverloadBackground": "charcoal4",
       "lineSeparatorColor": "charcoal2"
     },
     "PasswordField": {
@@ -285,27 +291,27 @@
       "inactiveForeground": "gray1"
     },
     "Plugins": {
-      "hoverBackground": "charcoal3",
-      "disabledForeground": "gray3",
-      "lightSelectionBackground": "gray2",
+      "hoverBackground": "charcoal4",
+      "disabledForeground": "gray2",
+      "lightSelectionBackground": "charcoal2",
       "tagBackground": "gray1",
       "eapTagBackground": "gray1",
       "tagForeground": "pink2",
       "Tab": {
         "selectedForeground": "pink2",
-        "selectedBackground": "charcoal2",
-        "hoverBackground": "charcoal3"
+        "selectedBackground": "black1",
+        "hoverBackground": "charcoal2"
       },
       "Button": {
         "installForeground": "white",
         "installBackground": "pink3",
-        "installBorderColor": "black5",
+        "installBorderColor": "charcoal1",
         "installFillForeground": "white",
         "installFillBackground": "pink3",
-        "installFocusedBackground": "black5",
+        "installFocusedBackground": "charcoal1",
         "updateForeground": "white",
-        "updateBackground": "pink3",
-        "updateBorderColor": "black5"
+        "updateBackground": "pink2",
+        "updateBorderColor": "charcoal1"
       },
       "SectionHeader": {
         "foreground": "white",
@@ -334,11 +340,10 @@
       "background": "charcoal1",
       "translucentBackground": "charcoal1"
     },
-    "PopupMenuSeparator": {
-    },
+    "PopupMenuSeparator": {},
     "ProgressBar": {
-      "trackColor": "gray2",
-      "selectionBackground": "gray2"
+      "trackColor": "charcoal4",
+      "selectionBackground": "charcoal4"
     },
     "RadioButton": {
       "foreground": "white",
@@ -353,21 +358,20 @@
       "acceleratorSelectionForeground": "pink2"
     },
     "ScrollBar": {
-      "thumbColor": "A6797970",
-      "hoverThumbColor": "E37C8990",
-      "Transparent.thumbColor": "A6797970",
-      "Transparent.trackColor": "21201fff",
-      "Transparent.hoverThumbColor": "E37C8990",
-      "Transparent.hoverTrackColor": "21201fff",
-      "Mac.thumbColor": "A6797970",
-      "Mac.hoverThumbColor": "E37C8990",
-      "Mac.Transparent.thumbColor": "A6797970",
-      "Mac.Transparent.trackColor": "21201fff",
-      "Mac.Transparent.hoverThumbColor": "E37C8990",
-      "Mac.Transparent.hoverTrackColor": "21201fff"
+      "thumbColor": "#A6797970",
+      "hoverThumbColor": "#E37C8990",
+      "Transparent.thumbColor": "#A6797970",
+      "Transparent.trackColor": "#21201fff",
+      "Transparent.hoverThumbColor": "#E37C8990",
+      "Transparent.hoverTrackColor": "#21201fff",
+      "Mac.thumbColor": "#A6797970",
+      "Mac.hoverThumbColor": "#E37C8990",
+      "Mac.Transparent.thumbColor": "#A6797970",
+      "Mac.Transparent.trackColor": "#21201fff",
+      "Mac.Transparent.hoverThumbColor": "#E37C8990",
+      "Mac.Transparent.hoverTrackColor": "#21201fff"
     },
-    "ScrollPane": {
-    },
+    "ScrollPane": {},
     "SearchEverywhere": {
       "Advertiser": {
         "background": "black1"
@@ -386,19 +390,17 @@
       },
       "Tab": {
         "selectedForeground": "pink2",
-        "selectedBackground": "gray2"
+        "selectedBackground": "charcoal4"
       }
     },
     "SearchField": {
       "errorBackground": "black2"
     },
-    "SearchMatch": {
-    },
+    "SearchMatch": {},
     "Separator": {
       "separatorColor": "pink3"
     },
-    "SettingsTree": {
-    },
+    "SettingsTree": {},
     "SidePanel": {
       "background": "charcoal1"
     },
@@ -409,7 +411,7 @@
     },
     "SpeedSearch": {
       "foreground": "white",
-      "background": "gray2",
+      "background": "charcoal4",
       "errorForeground": "white",
       "borderColor": "charcoal3"
     },
@@ -419,8 +421,7 @@
     "SplitPane": {
       "highlight": "charcoal1"
     },
-    "SplitPaneDivider": {
-    },
+    "SplitPaneDivider": {},
     "StatusBar": {
       "borderColor": "charcoal1"
     },
@@ -429,9 +430,9 @@
       "background": "charcoal1",
       "disabledForeground": "gray1",
       "disabledUnderlineColor": "gray1",
-      "hoverColor": "gray2",
+      "hoverColor": "charcoal4",
       "focusColor": "charcoal2",
-      "contentAreaColor": "gray2",
+      "contentAreaColor": "charcoal4",
       "underlineColor": "pink1"
     },
     "Table": {
@@ -463,8 +464,7 @@
       "selectionForeground": "pink2",
       "selectionBackground": "charcoal2"
     },
-    "TextComponent": {
-    },
+    "TextComponent": {},
     "TextField": {
       "foreground": "white",
       "background": "charcoal1",
@@ -531,7 +531,7 @@
         "selectedInactiveBackground": "black1",
         "underlinedTabBackground": "charcoal1",
         "underlinedTabInactiveBackground": "black1",
-        "hoverBackground": "gray2"
+        "hoverBackground": "charcoal4"
       }
     },
     "Toolbar": {
@@ -592,11 +592,10 @@
       },
       "RefLabel": {
         "foreground": "pink2",
-        "backgroundBase": "gray2"
+        "backgroundBase": "charcoal4"
       }
     },
-    "Viewport": {
-    },
+    "Viewport": {},
     "WelcomeScreen": {
       "background": "black1",
       "borderColor": "charcoal1",
