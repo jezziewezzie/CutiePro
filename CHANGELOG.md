@@ -1,6 +1,14 @@
 # CutiePro Changelog
 
 ## [Unreleased]
-- Minor fixes
-### Added
-- Gradle and Github Actions scaffolding copied from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+
+### Changed
+
+- Added C# customizations
+- Improved contrast with certain highlightings
+- Updated readme
+
+### Fixed
+
+- Changelog patching should work as intended now
+- Minor code cleanup
